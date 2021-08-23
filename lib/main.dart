@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:sho_app/shared/component/constants.dart';
 import 'modules/splash_screen/splash_screen.dart';
 import 'package:device_preview/device_preview.dart';
 
@@ -18,8 +19,10 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
             appBarTheme: AppBarTheme(
-              backwardsCompatibility: false, // Notification bar
-              iconTheme: IconThemeData(color: Colors.black87),
+              backwardsCompatibility: false,
+              // Notification bar
+              iconTheme: IconThemeData(
+                  color: Colors.black87),
               textTheme: TextTheme(
                 bodyText2: TextStyle(
                   color: Colors.black87,
@@ -57,3 +60,4 @@ class MyApp extends StatelessWidget {
         home: SplashScreen());
   }
 }
+// hello
