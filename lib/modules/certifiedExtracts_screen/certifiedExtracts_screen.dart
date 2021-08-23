@@ -3,6 +3,7 @@ import 'package:sho_app/modules/payment_screen/payment_screen2.dart';
 import 'package:sho_app/shared/component/constants.dart';
 import 'package:sho_app/shared/component/buttons.dart';
 // added
+//added 2
 class CertifiedScreen extends StatelessWidget {
   const CertifiedScreen({Key? key}) : super(key: key);
 
