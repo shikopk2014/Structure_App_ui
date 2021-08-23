@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:sho_app/modules/payment_screen/payment_screen2.dart';
 import 'package:sho_app/shared/component/constants.dart';
 import 'package:sho_app/shared/component/buttons.dart';
-
+// added
+//added 2
 class CertifiedScreen extends StatelessWidget {
   const CertifiedScreen({Key? key}) : super(key: key);
 
@@ -42,7 +43,7 @@ class CertifiedScreen extends StatelessWidget {
                       isIcon: false,
                       isArrow: true,
                       title: 'فال 13 - مبني 121 -سباكة-لبشة',
-                      fontSize: 16,
+                      fontSize: 13,
                       onPressed: () {
                         navigateTo(context, PaymentScreen2());
                       }),
@@ -51,7 +52,7 @@ class CertifiedScreen extends StatelessWidget {
                       isIcon: false,
                       isArrow: true,
                       title: 'فال 13 - مبني 121 -سباكة-لبشة',
-                      fontSize: 16,
+                      fontSize: 13,
                       onPressed: () {
                         navigateTo(context, PaymentScreen2());
                       }),
@@ -60,29 +61,7 @@ class CertifiedScreen extends StatelessWidget {
                       isIcon: false,
                       isArrow: true,
                       title: 'فال 13 - مبني 121 -سباكة-لبشة',
-                      fontSize: 16,
-                      onPressed: () {
-                        navigateTo(context, PaymentScreen2());
-                      }),
-                  v3Space,
-                  Date(
-                    dateText: '31/6/2021',
-                  ),
-                  v2Space,
-                  ServicesButton(
-                      isIcon: false,
-                      isArrow: true,
-                      title: 'فال 13 - مبني 121 -سباكة-لبشة',
-                      fontSize: 16,
-                      onPressed: () {
-                        navigateTo(context, PaymentScreen2());
-                      }),
-                  v2Space,
-                  ServicesButton(
-                      isIcon: false,
-                      isArrow: true,
-                      title: 'فال 13 - مبني 121 -سباكة-لبشة',
-                      fontSize: 16,
+                      fontSize: 13,
                       onPressed: () {
                         navigateTo(context, PaymentScreen2());
                       }),
@@ -95,7 +74,7 @@ class CertifiedScreen extends StatelessWidget {
                       isIcon: false,
                       isArrow: true,
                       title: 'فال 13 - مبني 121 -سباكة-لبشة',
-                      fontSize: 16,
+                      fontSize: 13,
                       onPressed: () {
                         navigateTo(context, PaymentScreen2());
                       }),
@@ -104,7 +83,20 @@ class CertifiedScreen extends StatelessWidget {
                       isIcon: false,
                       isArrow: true,
                       title: 'فال 13 - مبني 121 -سباكة-لبشة',
-                      fontSize: 16,
+                      fontSize: 13,
+                      onPressed: () {
+                        navigateTo(context, PaymentScreen2());
+                      }),
+                  v3Space,
+                  Date(
+                    dateText: '31/6/2021',
+                  ),
+                  v2Space,
+                  ServicesButton(
+                      isIcon: false,
+                      isArrow: true,
+                      title: 'فال 13 - مبني 121 -سباكة-لبشة',
+                      fontSize: 13,
                       onPressed: () {
                         navigateTo(context, PaymentScreen2());
                       }),
@@ -113,7 +105,16 @@ class CertifiedScreen extends StatelessWidget {
                       isIcon: false,
                       isArrow: true,
                       title: 'فال 13 - مبني 121 -سباكة-لبشة',
-                      fontSize: 16,
+                      fontSize: 13,
+                      onPressed: () {
+                        navigateTo(context, PaymentScreen2());
+                      }),
+                  v2Space,
+                  ServicesButton(
+                      isIcon: false,
+                      isArrow: true,
+                      title: 'فال 13 - مبني 121 -سباكة-لبشة',
+                      fontSize: 13,
                       onPressed: () {
                         navigateTo(context, PaymentScreen2());
                       }),
